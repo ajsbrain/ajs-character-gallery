@@ -1,0 +1,103 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Character Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- TEST LINE -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Character Gallery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="details.html">Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="new-character-form.html">Add Character</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-4">
+  <h1 class="text-center mb-4">Fictional Character Gallery</h1>
+
+  <!-- Search Bar -->
+  <input type="text" id="searchInput" class="form-control mb-4" placeholder="Search characters by name or universe...">
+
+  <!-- Character Grid -->
+  <div class="row" id="characterGrid">
+
+    <div class="col-md-4 mb-4 character-card">
+      <div class="card h-100">
+        <img src="https://i.imgur.com/8Q2Q5.jpg" class="card-img-top" alt="Goku">
+        <div class="card-body">
+          <h5 class="card-title">Goku</h5>
+          <p class="card-text">Universe: Dragon Ball<br>Role: Saiyan Warrior</p>
+          <a href="details.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4 character-card">
+      <div class="card h-100">
+        <img src="https://i.imgur.com/1X7Qb.jpg" class="card-img-top" alt="Naruto">
+        <div class="card-body">
+          <h5 class="card-title">Naruto</h5>
+          <p class="card-text">Universe: Naruto<br>Role: Ninja</p>
+          <a href="details.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4 character-card">
+      <div class="card h-100">
+        <img src="https://i.imgur.com/2Y5Z.jpg" class="card-img-top" alt="Batman">
+        <div class="card-body">
+          <h5 class="card-title">Batman</h5>
+          <p class="card-text">Universe: DC<br>Role: Hero</p>
+          <a href="details.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4 character-card">
+      <div class="card h-100">
+        <img src="https://i.imgur.com/4R9T.jpg" class="card-img-top" alt="Iron Man">
+        <div class="card-body">
+          <h5 class="card-title">Iron Man</h5>
+          <p class="card-text">Universe: Marvel<br>Role: Hero</p>
+          <a href="details.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4 character-card">
+      <div class="card h-100">
+        <img src="https://i.imgur.com/6L2M.jpg" class="card-img-top" alt="Link">
+        <div class="card-body">
+          <h5 class="card-title">Link</h5>
+          <p class="card-text">Universe: Zelda<br>Role: Warrior</p>
+          <a href="details.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
